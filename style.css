@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Overpass', sans-serif;
+}
+
+:root{
+    --light-grey: hsl(217, 12%, 63%);
+    --light-dark-blue: hsl(213, 19%, 18%);
+    --dark-blue: hsl(216, 12%, 8%);
+    --orange: hsl(25, 97%, 53%);
+}
+
+body{
+    background-color: var(--dark-blue);
+    color: white;
+}
+
+#ratingBox{
+    background-color: var(--light-dark-blue);
+
+    width: 37rem;
+    height: 33rem;
+
+    margin: auto;
+    margin-top: 25vh;
+
+    border-radius: 8px;
+}
+
+#ratingBox > img{
+    margin: 1rem;
+}
+
+#ratingBox > h1{
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+#ratingBox > p{
+    margin-top: 1rem;
+
+    text-align: center;
+    font-size: 1.5rem;
+    color: var(--light-grey);
+}
+
+#stars{
+    margin-top: 3rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.star{
+    width: 3.5rem;
+
+    cursor: pointer;
+}
+
+#ratingBox > #removeStars{
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
+#buttonSend{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin: 3rem auto;
+
+    width: 30rem;
+    height: 3.5rem;
+
+    border-radius: 8px;
+    border: none;
+
+    background-color: var(--orange);
+    color: white;
+
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    cursor: pointer;
+}
+
+#buttonSend:hover{
+    transition: .5s;
+    background-color: white;
+    color: var(--orange);
+}
+
+@media (max-width: 400px) {
+    #ratingBox{
+        background-color: var(--light-dark-blue);
+    
+        width: 25rem;
+        height: 33rem;
+    
+        margin: auto;
+        margin-top: 25vh;
+    
+        border-radius: 8px;
+    }
+
+    #buttonSend{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+        margin: 3rem auto;
+    
+        width: 15rem;
+        height: 3.5rem;
+    
+        border-radius: 8px;
+        border: none;
+    
+        background-color: var(--orange);
+        color: white;
+    
+        font-size: 1.6rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    
+        cursor: pointer;
+    }
+}
