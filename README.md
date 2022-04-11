@@ -1,6 +1,6 @@
  <h1 align="center">Rating Component</h1>
  <p align="center"> <strong>Interactive rating component</strong> </p>
- <h2 > <a  href=""> Link para o site </a> </h2>
+ <h2 > <a  href="https://inquisitive-phoenix-7a2604.netlify.app"> Link para o site </a> </h2>
  <img  src="print-site.jpg" alt="print do site">
  <br>
 <h2>Tecnologies used in this project </h2>
